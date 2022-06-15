@@ -1,4 +1,4 @@
 # pythonProjectExerxice
 Doing Exercises to improve my skills
 
-Suggestion for making it more effecient!
+Suggestion open for making it more effecient!
