@@ -86,23 +86,6 @@
 # print([[a,b,c] for a in range(0,x+1) for b in range(0,y+1) for c in range(0,z+1)])
 
 
-# if __name__ == '__main__':
-#     s = input()
-#
-#     print(any([char.isalnum() for char in s]))
-#     print(any([char.isalpha() for char in s]))
-#     print(any([char.isdigit() for char in s]))
-#     print(any([char.islower() for char in s]))
-#     print(any([char.isupper() for char in s]))
 
 
-# rangoli pattern of alphabets
-# import string
-# alpha = string.ascii_lowercase
-#
-# n = int(input())
-# L = []
-# for i in range(n):
-#     s = "-".join(alpha[i:n])
-#     L.append((s[::-1]+s[1:]).center(4*n-3, "-"))
-# print('\n'.join(L[:0:-1]+L))
+
