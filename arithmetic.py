@@ -216,10 +216,7 @@ def fibonacci_till():
     else:
         while n1 <= ntill:
             lis.append(n1)
-            n3 = n1 + n2
-
-            n1 = n2
-            n2 = n3
+            n1, n2 = n2, n1 + n2
 
     return lis
 
@@ -240,10 +237,8 @@ def fibonacci_terms():
     else:
         while count < nterms:
             lis.append(n1)
-            n3 = n1 + n2
 
-            n1 = n2
-            n2 = n3
+            n1, n2 = n2, n1 + n2
             count += 1
 
     return lis
@@ -272,9 +267,7 @@ def fibonacci_between():
         while n1 <= nend:
             if nstart <= n1 <= nend:
                 lis.append(n1)
-            n3 = n1 + n2
-
-            n1 = n2
-            n2 = n3
+            n1, n2 = n2, n1 + n2
 
     return lis
+

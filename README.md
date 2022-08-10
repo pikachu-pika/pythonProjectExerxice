@@ -1,4 +1,12 @@
 # pythonProjectExerxice
+
+## Topics
+
+1- **MENSURATION** (AREA,PERIMETER,DIAGONAL,VOLUME,TOTAL SURFACE AREA OF PLANE FIGURE OR SOLID)
+
+2- **ARITHMETIC** (SUM,PRODUCT,MEAN,MEDIUM,MAXIMUM,MINIMUM OF N NUMBER OF NUMBERS, DISTANCE FORMULA , LCM , HCF ,
+FACTORS , FACTORIAL , FACTORS)
+
 Doing Exercises to improve my skills
 
 Suggestion open for making it more effecient!
