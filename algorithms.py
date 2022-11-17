@@ -1,5 +1,5 @@
 # without index
-def linear_search(lst, n):
+def linear_search1(lst, n):
     for i in range(len(lst)):
         if lst[i] == n:
             return True
@@ -8,12 +8,24 @@ def linear_search(lst, n):
 
 
 # with index
-def linear_search(lst, n):
+def linear_search2(lst, n):
     for i in range(len(lst)):
         if lst[i] == n:
             return f'Found At Index {i}'
 
     return 'Not Found'
+
+
+# multiple indexes
+def linear_search3(lst, n):
+    index = []
+    for i in range(len(lst)):
+        if lst[i] == n:
+            index.append(i)
+    if index is None:
+        return 'Not Found'
+    else:
+        return f'Found At Indexes {index}'
 
 
 # without index

@@ -521,6 +521,39 @@ def pattern28(size):
         lis.append((s[::-1] + s[1:]).center(4 * size - 3, "-"))
     print('\n'.join(lis[:0:-1] + lis))
 
+
+# H
+# HE
+# HEL
+# HELL
+# HELLO
+
+def pattern29(letter):
+    for end in range(0, len(letter) + 1):
+        print(letter[0:end])
+
+
+# HELLO
+# HELL
+# HEL
+# HE
+# H
+
+def pattern30(letter):
+    for end in range(len(letter), 0, -1):
+        print(letter[0:end])
+
+
+# O
+# LO
+# LLO
+# ELLO
+# HELLO
+
+def pattern31(letter):
+    for start in range(len(letter), -1, -1):
+        print(letter[start:len(letter)])
+
 # def pattern(no_rows):
 #     for rows in range():
 #         for columns in range():

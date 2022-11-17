@@ -197,6 +197,15 @@ def factorial2(n):
         return n * factorial2(n - 1)
 
 
+# Print a number in revere using recursion
+def reverse(n):
+    if n <= 0:
+        return
+    else:
+        print(n % 10, end="")
+        reverse(n // 10)
+
+
 # A series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers.
 # Program to return Fibonacci series up to n value
 def fibonacci_till():
@@ -270,4 +279,3 @@ def fibonacci_between():
             n1, n2 = n2, n1 + n2
 
     return lis
-
